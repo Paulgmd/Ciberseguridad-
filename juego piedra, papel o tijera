@@ -1,0 +1,34 @@
+import random
+
+lista = ["piedra", "papel", "tijera"]
+
+computadora = random.choice(lista)
+jugador = None
+
+while jugador not in lista:
+    jugador = input("piedra, papel o tijera?:").lower()
+
+if jugador == computadora:
+    print("computadora:", computadora)
+    print("jugador:", jugador)
+    print("empate")
+    
+elif jugador == "piedra":
+    if computadora == "papel":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("perdiste!")
+    if computadora == "tijera":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("ganaste!")
+
+elif jugador == "papel":
+    if computadora == "tijera":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("perdiste!")
+    if computadora == "piedra":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("ganaste!")
