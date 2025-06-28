@@ -32,3 +32,16 @@ elif jugador == "papel":
         print("computadora:", computadora)
         print("jugador:", jugador)
         print("ganaste!")
+
+elif jugador == "tijera":
+    if computadora == "piedra":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("perdiste!")
+    if computadora == "papel":
+        print("computadora:", computadora)
+        print("jugador:", jugador)
+        print("ganaste!")
+
+# Fin del Juego
+print("Fin del juego")
