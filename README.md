@@ -15,8 +15,13 @@ Reinicio de juego para múltiples partidas.
 Datos del Grupo
 
 Nombre del Proyecto: Piedra, Papel o Tijera
+
 Desarrollador: Paul Guamo Medina
+
 Curso: Logica de programacion.
+
 Institución: UIDE
+
 Profesor: ING. Monica Patricia Salazar Tapia.
+
 Fecha: Junio 2025
